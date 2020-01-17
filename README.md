@@ -18,6 +18,23 @@ or
 pip3 install -r requirements.txt  
 ```
 
+## STFT
+A la seleccion de archivos *.wav* se le realiza una *Transformada de Fourier en tiempo corto* (siglas en ingles STFT) con los siguientes parametros: 
+
+    - resolucion 
+1 Segundo
+
+    - largo de ventana 
+    
+2 <sup>14</sup> Muestras
+
+    - largo de traslape 
+
+2 <sup>13</sup> Muestras
+
+
+
+
 ### Authors
 <p style="text-align:center">Diego Espejo <br>
 <a href="mailto:diego.es
